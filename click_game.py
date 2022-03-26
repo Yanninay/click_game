@@ -21,7 +21,7 @@ blue = (0, 100, 250)
 
 
 gameDisplay = pygame.display.set_mode((display_width, display_height))
-pygame.display.set_caption("ПРОСТО КЛИКАЙ ЧЁРТ ВОЗЬМИ")
+pygame.display.set_caption("ПРОСТО КЛИКАЙ")
 
 
 def circle(display, color, x, y, radius):
