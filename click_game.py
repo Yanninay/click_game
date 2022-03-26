@@ -6,7 +6,7 @@ pygame.init()
 
 
 clock = pygame.time.Clock()
-author = "Yanniway"
+author = "Yanninay"
 autog = 0
 coins = 0
 display_width = 800
