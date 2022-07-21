@@ -6,7 +6,7 @@ pygame.init()
 
 
 clock = pygame.time.Clock()
-author = "Yanninay"
+author = "Yanniway"
 autog = 0
 coins = 0
 display_width = 800
@@ -21,7 +21,7 @@ blue = (0, 100, 250)
 
 
 gameDisplay = pygame.display.set_mode((display_width, display_height))
-pygame.display.set_caption("ПРОСТО КЛИКАЙ")
+pygame.display.set_caption("ПРОСТО КЛИКАЙ ЧЁРТ ВОЗЬМИ")
 
 
 def circle(display, color, x, y, radius):
@@ -77,20 +77,20 @@ def main_loop():
 
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 mopos = pygame.mouse.get_pos()
-                if mopos >= (350, 0):
-                    if mopos <= (450, 0):
+                if mopos >= [350, 0]:
+                    if mopos <= [450, 0]:
                         coins += mong
 
-                if mopos <= (800, 0):
-                    if mopos >= (600, 0):
+                if mopos <= [800, 0]:
+                    if mopos >= [600, 0]:
                         if coins >= cost:
                             coins = coins - cost
                             cost = cost * 1.5
                             mong = mong * 1.1
                             cost = round(cost, 0)
 
-                if mopos >= (50, 0):
-                    if mopos <= (245, 0):
+                if mopos >= [50, 0]:
+                    if mopos <= [245, 0]:
                         if coins >= cost2:
                             coins = coins - cost2
                             cost2 = cost2 * 1.5
